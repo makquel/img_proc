@@ -1,0 +1,11 @@
+version: '3'
+services:
+  img_proc:
+    build: .
+    image: img_proc
+    container_name: img_proc
+    # volumes:
+    #   - ./src:/src
+    ports:
+      - 5000:5000
+    restart: always

@@ -1,0 +1,17 @@
+*__pycache__
+*.ipynb_checkpoints
+*.pyc
+*.vscode
+*.log
+*.log.swp
+*.txt
+*.nii.gz
+*.nii
+*.code-workspace
+*.zip
+*.dcm
+## pesos devem ser salvos no gs
+*.h5
+*.pb
+*.json
+main_dual.py
